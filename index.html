@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>    
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    
+<header>
+        <div class="header-text">
+            <p>Graphic designer</p>
+            <h1>Hi, I'm <span>Gordana Vojinovic</span><br></h1>
+            <h2 class="subtitle">Elevating brands and products</h2> 
+        </div>
+    </div>
+</header>
+
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Fotografija.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About me</h1>
+                <p>I am a passionate graphic designer with expertise in 3D design, modeling, video montage, and branding. I thrive on creating visually compelling and impactful designs, bringing a strong creative vision to every project. With a focus on innovation and detail, I am dedicated to delivering unique and effective solutions that meet both aesthetic and strategic goals.</p>
+
+                <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Product Design</span><br>Designing innovative products that enhance user experience.</li>
+                        <li><span>Branding/Visual identity</span><br>Developing brand identities and strategies to resonate with target audiences.</li>
+                        <li><span>Video Production</span><br>Producing engaging video content from concept to final edit.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Present</span><br>Teaching assistant and designer at the University of Donja Gorica</li>
+                        <li><span>2023 - 2024</span><br>Designer for the regional magazine "The Collection"</li>
+                        <li><span>2020 - Present</span><br>Freelance graphic designer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Present</span><br>Master studies - Faculty of Design and Multimedia, University of Donja Gorica</li>
+                        <li><span>2020 - 2023</span><br>Bachelor degree - Faculty of Design and Multimedia, University of Donja Gorica</li>
+                        <li><span>2016 - 2020</span><br>Niko Rolović High School in Bar, Montenegro</li>
+                    </ul>
+                </div>
+          
+                
+
+
+<!----------------services------------->
+
+<div id="services">
+    <div class="container">
+        </div>
+        <div class="services-content">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Product Design</h2>
+                    <p>Creating impactful, user-focused designs that combine function with style, tailored to bring your vision to life.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Brand Design</h2>
+                    <p>Building memorable, cohesive brand identities that capture your vision and connect with your audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Video Production</h2>
+                    <p>From concept to final edit, I create visually impactful content designed to engage, inspire, and leave a lasting impression.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-----------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="images/Projekat_1.png" > 
+        <div class="layer">
+            <h3>Suicide Prevention Campaign</h3>
+            <p>A campaign designed with the aim of suppressing a large number of suicides in Montenegro, for a better tomorrow.</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/Projekat_2.png" >
+        <div class="layer">
+            <h3>National brand</h3>
+            <p>Conceptual solution of the visual identity of the national brand of Montenegro</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/Projekat_3.png" >
+        <div class="layer">
+            <h3>"The Collection" magazine</h3>
+            <p>Wedding venue section design, featured in the summer edition of the magazine.</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/Projekat_4.png" >
+        <div class="layer">
+            <h3>Product design - brand "Monelix"</h3>
+            <p>Packaging design of bottles and promotive material, along with visual identity for Montenegrian natural juices and teas.</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/Projekat_5.png" >
+        <div class="layer">
+            <h3>Alumni club "Medozuc"</h3>
+            <p>Conceptual solution for the visual identity of the Alumni club of University of Donja Gorica.</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/Projekat_6.png" >
+        <div class="layer">
+            <h3>"Ekta"tattoo studio</h3>
+            <p>Visual identity and packaging design within the "Ekta" brand, provided for the conceptual solution of the tattoo studio.</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/projekat_7.jpg" >
+        <div class="layer">
+            <h3>Promotion of the Chinese culture</h3>
+            <p>Strategic Development of Communication Activities Based on the Analysis of the Promotion and Perception of China in the Montenegrin Context from the Aspect of Identity and Image</p>
+        </div>
+     </div>
+     <div class="work">
+        <img src="images/projekat_8.jpg" >
+        <div class="layer">
+            <h3>Video production and editing</h3>
+            <p>Video concepts within the promotion of Chinese culture, the national brand of Montenegro and other artistic concepts.</p>
+        </div>
+     </div>
+<a href="#" class="btn">See more</a>
+</div>
+
+<!---------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gordanav.business@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+38269142220</p>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+<body>
+    <div class="content">
+    </div>
+    <div class="copyright">
+        <i>Copyright © Gordana Vojinovic, graphic designer</i>
+    </div>
+
+</div>
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+            
+                    function opentab(tabname) {
+                       
+                        for (let tablink of tablinks) {
+                            tablink.classList.remove("active-link");
+                        }
+        
+                        for (let tabcontent of tabcontents) {
+                            tabcontent.classList.remove("active-tab");
+                        }
+        
+                        document.getElementById(tabname).classList.add("active-tab");
+                        event.currentTarget.classList.add("active-link");
+                    }
+                
+  </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
